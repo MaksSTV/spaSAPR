@@ -1,0 +1,63 @@
+.project{
+    flex: 1;
+    
+}
+
+.project__layout{
+    width: 70%;
+    
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.project__layout--inner{
+    width: 100%;
+    border: 5px dotted #ddd;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.subdiv{
+    height: 50px;
+    background-color: #232323;
+}
+
+.options__list{
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+    display: flex;
+    background-color: #232323;
+}
+
+.options__item-btn{
+    color: white !important;
+}
+
+.project__container{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.project__instruments,
+.project__objects{
+    background-color: #232323;
+    width: 15%;
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+    cursor: move;
+}
+
+.drag{
+    width: 100px;
+    
+    background-color: transparent;
+}

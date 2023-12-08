@@ -1,0 +1,28 @@
+.footer{
+    height: 120px;
+    background-color: rgb(71, 71, 71);
+}
+
+.footer__content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer__list-item{
+    margin-bottom: 5px;
+    color: #e8e8e8;
+}
+
+.footer__link{
+    color: #e8e8e8;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer__link:hover{
+    color: rgba(255, 155, 18, 1.0); 
+}

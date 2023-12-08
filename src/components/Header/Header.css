@@ -1,0 +1,43 @@
+.header{
+    
+    background-color: #424242;
+    border-bottom: 1px solid #363636;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__content{
+    padding-top: 10px;
+    height: 70px;
+}
+
+.header__list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.header__list-item{
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header__list-item:first-child{
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.header__list-link{
+    color: rgb(207, 206, 206);
+    transition: all 0.2s ease-in-out;
+}
+
+.header__list-link:hover{
+    color: #4B539C; 
+}
